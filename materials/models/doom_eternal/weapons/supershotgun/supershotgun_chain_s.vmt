@@ -1,0 +1,39 @@
+VertexLitGeneric
+{
+
+	$basetexture models\doom_eternal\weapons\supershotgun\supershotgun_chain_s
+	$bumpmap models\doom_eternal\weapons\supershotgun\supershotgun_chain_n
+	$phongexponenttexture color/white
+	
+	$phong 1
+	$phongfresnelranges	"[.25 0.625 1]"
+	$phongboost 5
+	$phongexponent 10 //40
+	
+	$phongalbedotint 1
+	$phongdisablehalflambert 1
+
+	$envmap models/dredux/cubemaps/fallout4cube_dithered_grey
+
+	$ReflectionPower 0.5
+	$ReflectionMin 0.00001
+	$ReflectionMax 1
+	
+	$ReflectionTint "{ 255 215 100 }"
+	
+	$ReflectionHDR 0.1
+	$ReflectionLDR 3
+	
+	Proxies
+    {
+        dredux_Reflection
+        {
+            resultVar $envmaptint
+        }
+		
+	}
+	
+	$additive 1
+	$color2 "[ 0 0 0 ]"
+	
+}

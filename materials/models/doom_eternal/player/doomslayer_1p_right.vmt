@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture models\doom_eternal\player\doomslayer_1p_right
+	$bumpmap models\doom_eternal\player\doomslayer_1p_right_n
+
+	$phong 1
+	$phongfresnelranges	"[0 0 0]"
+	$phongboost	0
+	$phongexponent 0
+
+	$color2 "[ 0.5 0.5 0.5 ]"
+	
+}

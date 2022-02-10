@@ -1,0 +1,27 @@
+VertexLitGeneric
+{
+	$basetexture color/white
+	$bumpmap dev/flat_normal
+	
+	$phong 1
+	$phongfresnelranges	"[0 1 0.5]"
+	$phongtint "{ 255 255 255 }"
+	$phongboost	5
+	$phongexponent 40
+
+	//$lightwarptexture models/doom_eternal/pickups/ammo/lightwarp
+
+	$color2 "[ 1 0.75 0 ]"
+	
+	$envmap models/dredux/cubemaps/fallout4cube_dithered_grey
+	$envmaptint "[ 1 0.9 0 ]"
+	
+	$selfillum 1
+	$selfillumtint "[ 2 1.5 0 ]"
+	
+	$selfillumfresnel 1
+	$selfillumfresnelminmaxexp "[0 1 0.5]"
+	
+	$selfillummask color/white
+
+}

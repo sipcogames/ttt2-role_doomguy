@@ -1,0 +1,43 @@
+VertexLitGeneric
+{
+
+	$basetexture models\doom_eternal\weapons\supershotgun\supershotgun_shell_s
+	$bumpmap models\doom_eternal\weapons\supershotgun\supershotgun_shell_n
+	$phongexponenttexture color/white
+	
+	$phong 1
+	$phongfresnelranges	"[0.5 0.9 1]"
+	$phongboost 4
+	$phongexponent 10
+	
+	$phongalbedotint 1
+	$phongdisablehalflambert 1
+
+	$envmap models/dredux/cubemaps/metal_1
+	$normalmapalphaenvmapmask 1
+
+	$ReflectionPower 1
+	$ReflectionMin 0.00001
+	$ReflectionMax 1
+	
+	$ReflectionTint "{ 255 200 0 }"
+	
+	$ReflectionHDR 0.1
+	$ReflectionLDR 3
+	
+	Proxies
+    {
+        dredux_Reflection
+        {
+            resultVar $envmaptint
+        }
+		
+	}
+	
+	$additive 1
+	$color2 "[ -1 -1 -1 ]"
+	
+	$selfillum 1
+	$selfillumtint "[ -1 -1 -1 ]"
+	
+}

@@ -1,0 +1,35 @@
+VertexLitGeneric
+{
+	$basetexture models/doom_eternal/player/doomslayer_1p_left_s
+	$bumpmap models/doom_eternal/player/doomslayer_1p_left_n
+
+	$phong 1
+	$phongfresnelranges	"[0 .225 1]"
+	$phongboost	5
+	$phongexponent 20
+	
+	$phongalbedotint 1
+	$phongdisablehalflambert 1
+
+	$envmap models/dredux/cubemaps/metal_1
+	
+	$ReflectionPower 0.15
+	$ReflectionMin 0.00001
+	$ReflectionMax 1
+	
+	$ReflectionHDR 0.1
+	$ReflectionLDR 3
+	
+	Proxies
+    {
+        dredux_Reflection
+        {
+            resultVar $envmaptint
+        }
+		
+	}
+	
+	$additive 1
+	$color2 "[ 0 0 0 ]"
+	
+}

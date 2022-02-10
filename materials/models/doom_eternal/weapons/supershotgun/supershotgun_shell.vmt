@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	$basetexture models\doom_eternal\weapons\supershotgun\supershotgun_shell
+	$bumpmap models\doom_eternal\weapons\supershotgun\supershotgun_shell_n
+	
+	$phong 1
+	$phongfresnelranges	"[0.87 0.9 1]"
+	$phongboost	4
+	$phongexponent 20
+	
+	$phongalbedotint 1
+	$phongdisablehalflambert 1
+	
+	$detail  models\doom_eternal\weapons\supershotgun\supershotgun_shell_s
+	$detailscale 1
+	$detailblendfactor 0.5
+	$detailblendmode 1
+
+	$color2 "[ 0.5 0.5 0.5 ]"
+	
+}
